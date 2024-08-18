@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AaZ_PsD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38820775bf744fc0d7c5f0c707244dddcfd4bc73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c891aaa3d305511d3100cd455a16e2a96400f664")]
 [assembly: System.Reflection.AssemblyProductAttribute("AaZ_PsD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AaZ_PsD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

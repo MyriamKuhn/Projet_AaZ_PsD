@@ -18,7 +18,7 @@ function connectuser(){
         body: body
     };
 
-    const urlRequete = 'http://mimi.runasp.net/Login'
+    const urlRequete = 'https://mimi.runasp.net/Login'
     
     fetch(urlRequete, init)
         .then(response => {

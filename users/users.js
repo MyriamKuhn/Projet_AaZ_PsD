@@ -9,7 +9,7 @@ export function init(){
       redirect: 'follow'
     };
   
-    fetch("http://mimi.runasp.net/api/Users", requestOptions)
+    fetch("https://mimi.runasp.net/api/Users", requestOptions)
       .then(response => response.json())
       .then(result => {
         let tableBody = '';
@@ -50,7 +50,7 @@ function Search(){
       redirect: 'follow'
     };
   
-    fetch("http://mimi.runasp.net/api/Users/Search?searchLabel="+search, requestOptions)
+    fetch("https://mimi.runasp.net/api/Users/Search?searchLabel="+search, requestOptions)
     .then(response => response.json())
     .then(result => {
       let tableBody = '';

@@ -33,7 +33,7 @@ function CreateUser(){
         body: body
     };
     
-    const urlRequete = "http://mimi.runasp.net/Signup";
+    const urlRequete = "https://mimi.runasp.net/Signup";
 
     fetch(urlRequete, init)
         .then(response => {
