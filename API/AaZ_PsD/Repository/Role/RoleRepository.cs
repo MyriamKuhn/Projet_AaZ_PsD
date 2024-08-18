@@ -22,7 +22,7 @@ namespace AaZ_PsD.Repository
 
             var cnn = this.OpenConnexion();
 
-            string sql = "select idrole, name, description from role";
+            string sql = "select idRole, name, description from role";
 
             var cmd = new MySqlCommand(sql, cnn);
 
@@ -32,7 +32,7 @@ namespace AaZ_PsD.Repository
             {
                 var role = new Role()
                 {
-                    IdRole = Convert.ToInt16(reader["idrole"]),
+                    IdRole = Convert.ToInt16(reader["idRole"]),
                     Name = reader["name"].ToString(),
                     Description = reader["description"].ToString()
                 };
