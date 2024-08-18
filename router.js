@@ -88,7 +88,7 @@ const users = () => {
 };
 
 const createUser = () => {
-  import('./users/createUser.js')
+  import('./users/createuser.js')
   .then((module) => {
       module.init();
   });
